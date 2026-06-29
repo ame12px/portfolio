@@ -189,6 +189,32 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <footer id="contact" className="border-t border-line">
+        <div className="flex flex-col gap-4 px-6 py-12 md:flex-row md:items-center md:justify-between md:px-16">
+          <p className="font-mono text-xs text-ink-muted">© 2026 雨</p>
+          <div className="flex flex-wrap gap-4 font-mono text-xs text-ink-muted">
+            <a href="mailto:uioua.com@gmail.com" className="hover:text-ink">
+              Email
+            </a>
+            <a
+              href="https://note.com/ame12px"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink"
+            >
+              note
+            </a>
+            <a
+              href="https://github.com/ame12px"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-ink"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }

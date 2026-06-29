@@ -57,6 +57,24 @@ const certifications = [
 export default function Home() {
   return (
     <main className="flex flex-col bg-paper text-ink">
+      <header className="sticky top-0 z-10 border-b border-line bg-paper/90 backdrop-blur-sm">
+        <div className="flex items-center justify-between px-6 py-4 md:px-16">
+          <a href="#" className="font-display text-sm font-bold">
+            雨
+          </a>
+          <nav className="flex gap-6 font-mono text-xs text-ink-muted">
+            <a href="#projects" className="hover:text-ink">
+              Works
+            </a>
+            <a href="#about" className="hover:text-ink">
+              About
+            </a>
+            <a href="#contact" className="hover:text-ink">
+              Contact
+            </a>
+          </nav>
+        </div>
+      </header>
       <section className="flex flex-col gap-6 px-6 py-24 md:px-16">
         <p className="flex items-center gap-2 text-sm text-ink-muted">
           <span className="h-1.5 w-1.5 rounded-full bg-stamp" />

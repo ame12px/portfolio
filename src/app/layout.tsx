@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Your Name | Portfolio",
+  title: "雨 | Portfolio",
   description: "個人開発のログ — misocho, くすりぽ",
 };
 

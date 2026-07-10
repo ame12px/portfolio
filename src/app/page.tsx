@@ -86,10 +86,10 @@ export default function Home() {
           かたちにする。
         </h1>
         <p className="font-display text-lg font-medium text-ink-muted">
-          デザイン視点を持ちながら、実装する力を深めています。
+          デザインの視点を大切に、使いやすさを考えながら実装しています。
         </p>
         <p className="max-w-md text-ink-muted">
-          Webデザイナー/コーダーとして、サイトの設計から実装まで手を動かしてきました。UIデザインに専念する時期を経て、もともと得意だった実装に、いま一度力を入れています。現在はReact・Next.jsなど、最新のWeb技術を学び直しているところです。休日は写真やアクセサリー作りなど、好きなものづくりを楽しんでいます。
+          Webデザイナー・コーダーとして、Webサイトの設計から実装まで携わってきました。現在はReactやNext.jsを用いたフロントエンド開発に取り組んでいます。デザインの視点を大切にしながら、ユーザーにとってわかりやすいUIを心がけて実装しています。写真や手芸など、ものづくりが好きです。
         </p>
         <div className="flex flex-wrap items-center gap-2">
           <span className="font-mono text-xs text-ink-muted">Built with</span>
